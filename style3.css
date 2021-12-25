@@ -1,0 +1,115 @@
+.watermelon {
+	position: relative;
+	top:530px;
+	left:530px;
+	width:400px;
+	height:180px;
+	background-color: #179245;
+	border-radius: 0% 0% 400px 400px;
+}
+.red {
+	position: absolute;
+	width: 350px;
+	height:155px;
+	left:25px;
+	border-radius: 0% 0% 230px 230px;
+	background-color: red;
+}
+.seeld {
+	position: absolute;
+	width: 10px;
+	height:17px;
+	border-radius: 60% 60% 60% 60%;
+	background-color: black;
+	left: 25px;
+	top: 15px
+}
+.seeld1 {
+	position: absolute;
+	width: 10px;
+	height:17px;
+	border-radius: 60% 60% 60% 60%;
+	background-color: black;
+	left: 50px;
+	top: 60px
+}
+.seeld2 {
+	position: absolute;
+	width: 10px;
+	height:17px;
+	border-radius: 60% 60% 60% 60%;
+	background-color: black;
+	left: 100px;
+	top: 90px
+}
+.seeld3 {
+	position: absolute;
+	width: 10px;
+	height:17px;
+	border-radius: 60% 60% 60% 60%;
+	background-color: black;
+	left: 100px;
+	top: 10px
+}
+.seeld4 {
+	position: absolute;
+	width: 10px;
+	height:17px;
+	border-radius: 60% 60% 60% 60%;
+	background-color: black;
+	left: 120px;
+	top: 50px
+	}
+.seeld5 {
+	position: absolute;
+	width: 10px;
+	height:17px;
+	border-radius: 60% 60% 60% 60%;
+	background-color: black;
+	left: 150px;
+	top: 30px
+	}
+.seeld6 {
+	position: absolute;
+	width: 10px;
+	height:17px;
+	border-radius: 60% 60% 60% 60%;
+	background-color: black;
+	left: 200px;
+	top: 60px
+	}
+.myacot {
+	position: absolute;
+	width: 80px;
+	height:90px;
+	border-radius: 100% 90% 1% 90%;
+	background-color: red;
+	left: 100px;
+	top: -100px
+}
+.water {
+	position: relative;
+	top:730px;
+	left:530px;
+	width:200px;
+	height:180px;
+	background-color: #179245;
+	border-radius: 0% 0% 0px 200px;
+	animation-name: spin;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+@keyframes spin {
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(-22deg);
+	}
+	.red1 {
+	position: absolute;
+	width: 550px;
+	height:555px;
+	left:25px;
+	border-radius: 0% 0% 230px 230px;
+	background-color: red;
